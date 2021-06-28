@@ -1,14 +1,17 @@
 ---
-title: "About this site"
+title: "Comparative Metrics Framework(Abridged"
 description: |
-  Some additional details about the website
+  This abridged document[1] presents a comprehensive *comparative metrics framework* to evaluate the performance of synthetic data based on general utility,    specific utility and disclosure risk. This is one of the few publicly available benchmarks to evaluate the quality of synthetic data. I will also provide some recommendations on best practices for generating synthetic data.
+  
+output:
+  distill::distill_article:
+    self_contained: false
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-This abridged document[1] presents a comprehensive *comparative metrics framework* to evaluate the performance of synthetic data based on general utility, specific utility and disclosure risk. This is one of the few publicly available benchmarks to evaluate the quality of synthetic data. I will also provide some recommendations on best practices for generating synthetic data.
 
 Introduction
 ============
